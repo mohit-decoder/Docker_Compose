@@ -5,7 +5,7 @@ services:
     build: ./tomcat
     ports:
       - "8081:8080"
-  conatainer name: tomcat-server
+  conatainer_name: tomcat-server
   depends_on:
       - db
 
