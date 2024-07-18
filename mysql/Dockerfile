@@ -16,5 +16,7 @@ RUN chmod +x /set-env.sh
 
 EXPOSE 3306
 
-# Use a custom entrypoint to source the environment variables and then start MySQL
-ENTRYPOINT ["/bin/bash", "-c", "source /set-env.sh && exec mysqld"]
+# custom entrypoint to source the environment variables and then start MySQL
+ENTRYPOINT ["bash", "-c", "source /set-env.sh && exec docker-entrypoint.sh mysqld"]
+
+
