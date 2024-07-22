@@ -11,8 +11,13 @@ create a data file in mysql folder
 
 -  mkdir -p /Docker_Compose/mysql/data
 -  sudo chmod -R 755 data
+
+update the file-permissions
+- sudo chmod -R 777 /home/mohit/Docker_Compose/mysql/data ## your file path
+- sudo chown -R mysql:mysql /home/mohit/Docker_Compose/mysql/data ## changing permissions of the file ownership to mysql
 -----------
 
 mentioned both the files in .gitignore
   .env
   data
+-----------
