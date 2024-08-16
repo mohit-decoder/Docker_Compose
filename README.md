@@ -13,7 +13,7 @@
 
 3. **Update the file-permissions**
 
--    sudo chmod -R 777 /home/mohit/Docker_Compose/mysql/data ## your file path
--    sudo chown -R mysql:mysql /home/mohit/Docker_Compose/mysql/data ## changing permissions of the file ownership to mysql
+-       sudo chmod -R 777 /home/mohit/Docker_Compose/mysql/data ## your file path
+-       sudo chown -R mysql:mysql /home/mohit/Docker_Compose/mysql/data ## changing permissions of the file ownership to mysql
   
 
